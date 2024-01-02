@@ -1,4 +1,4 @@
-import "./Navbar.scss";
+import "./navbar.scss";
 import netflixLogo from "../../images/netflix.png";
 import { ArrowDropDown, Notifications, Search } from "@mui/icons-material";
 import { useState } from "react";
