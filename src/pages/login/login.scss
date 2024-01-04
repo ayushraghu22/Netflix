@@ -1,0 +1,87 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) 0% 20%,
+      rgba(0, 0, 0, 0.3) 50%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url("https://8f430952.rocketcdn.me/wp-content/uploads/2019/04/ntflxx.png");
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  .top {
+    .wrapper {
+      margin: 0 auto;
+      width: 75%;
+      padding: 20px 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .logo {
+        height: 40px;
+      }
+    }
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    color: white;
+    box-sizing: border-box;
+    // padding-top: 180px;
+
+    form {
+      width: 300px;
+      height: 300px;
+      padding: 30px;
+      border-radius: 5px;
+      background-color: var(--main-color);
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+
+      input {
+        height: 40px;
+        border-radius: 5px;
+        background-color: gray;
+        color: white;
+        padding-left: 10px;
+
+        &::placeholder {
+          color: lightgray;
+        }
+      }
+
+      button {
+        height: 40px;
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+        border: none;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+
+      span {
+        color: lightgray;
+        b {
+          color: white;
+        }
+      }
+    }
+  }
+}
